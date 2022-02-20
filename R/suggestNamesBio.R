@@ -1,6 +1,8 @@
 #' @importFrom utils select.list
 #' @importFrom hunspell dictionary hunspell_check hunspell_suggest
 
+#' @param x Vector taxa names
+
 suggestNamesBio <- function( x , custom = F , group = group , ... ){
 
   # set the path of the dictionary. If group is mi or mf the dictionary is stored in the package path
