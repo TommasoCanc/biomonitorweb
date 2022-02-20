@@ -3,7 +3,7 @@
 
 #' @param x Vector taxa names
 
-suggestNamesBio <- function( x , custom = F , group = group , ... ){
+suggestNamesBio.1 <- function( x , custom = F , group = group , ... ){
 
   # set the path of the dictionary. If group is mi or mf the dictionary is stored in the package path
   # while if group is set to custom the dictionary is created in the user directory.
