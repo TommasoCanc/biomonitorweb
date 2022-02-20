@@ -38,6 +38,6 @@ bioImport <- function( x , group = "mi" , dfref = NULL ){
     if( is.data.frame( dfref ) ){
       custom <- TRUE
     }
-    suggestNamesBio( wrong_names , custom = custom , group = group )
+    suggestNamesBio.1( wrong_names , custom = custom , group = group )
   }
 }
